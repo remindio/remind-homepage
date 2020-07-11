@@ -188,6 +188,50 @@
 
 .home-page .simple-section .simple-section-third {
   background-image: url("./assets/big-ideias_bd.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.home-page main .important-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.home-page main .important-section .section-title {
+  margin-bottom: 30px;
+}
+
+.home-page main .important-section .section-title h1 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.home-page main .important-section .important-section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.home-page main .important-section .important-section-content div {
+  width: 30%;
+}
+
+.home-page main .important-section .important-section-content div h2 {
+  color: #303030;
+  font-size: 38px;
+}
+
+.home-page main .important-section .important-section-content div p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #666;
+  width: 80%;
 }
 
 .home-page main .last-section {
@@ -196,6 +240,33 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 0;
+}
+
+.home-page main .last-section .last-section-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-page main .last-section .last-section-inner-container .much-more-description {
+  align-self: center;
+}
+
+.home-page main .last-section .last-section-inner-container .much-more-description h2 {
+  color: #303030;
+  font-size: 38px;
+}
+
+.home-page main .last-section .last-section-inner-container .much-more-description p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #666;
+  width: 70%;
+}
+
+.home-page main .last-section .last-section-inner-container .much-more-description p a {
+  color: #00A5CF;
 }
 
 .home-page main .last-section .remind-description {
@@ -233,7 +304,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 30px 0;
+  padding: 50px 0;
+  border-top: 1px solid #dddddd;
 }
 
 .home-page footer p {

@@ -96,20 +96,22 @@ export default function App() {
           <div className="section-title">
             <h1>But most important...</h1>
           </div>
-          <div>
+          <div className="important-section-content">
             <img src={shareImg} alt="Share your ideas"/>
-            <h2>Share with anyone</h2>
-            <p>
-              You can keep it for yourself or you can share it 
-              with friends or co-workers. It is up to you.
-            </p>
+            <div>
+              <h2>Share with anyone</h2>
+              <p>
+                You can keep it for yourself or you can share it 
+                with friends or co-workers. It is up to you.
+              </p>
+            </div>
           </div>
         </section>
         <section className="last-section">
-          <div>
-            <div>
+          <div className="last-section-inner-container">
+            <div className="much-more-description">
               <h2>And much more in the future</h2>
-              <p>Remind is being developed and great ideas are yet to come. Read more</p>
+              <p>Remind is being developed and great ideas are yet to come. <a href="/about">Read more</a></p>
             </div>
             <div>
               <img src={inProgress} alt="In progress"/>
