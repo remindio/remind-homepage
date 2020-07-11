@@ -190,6 +190,42 @@
   background-image: url("./assets/big-ideias_bd.png");
 }
 
+.home-page main .last-section {
+  background-image: url("./assets/inprogress_bd.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.home-page main .last-section .remind-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.home-page main .last-section .remind-description h1 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #303030;
+}
+
+.home-page main .last-section .remind-description button {
+  background-color: #00A5CF;
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  margin-top: 20px;
+  color: #fff;
+  transition: filter 0.3s;
+  cursor: pointer;
+}
 
 .home-page footer {
   display: flex;

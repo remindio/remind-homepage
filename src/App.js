@@ -115,7 +115,7 @@ export default function App() {
               <img src={inProgress} alt="In progress"/>
             </div>
           </div>
-          <div>
+          <div className="remind-description">
             <h1>Remind is simple, customizable and all you need</h1>
             <button>Get Started</button>
           </div>
