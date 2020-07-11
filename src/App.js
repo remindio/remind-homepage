@@ -23,7 +23,7 @@ export default function App() {
           <img src={logo} style={{ width: 100, height: 64 }} alt="Remind"/>
           <div>
             <div className="about-container">
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </div>
             <div>
               <a href="http://localhost:3333/users/sign_in">Login</a>
@@ -41,7 +41,7 @@ export default function App() {
               <button>Get Started</button>
             </div>
           </div>
-          <img src={homeImage} style={{ width: 500, height: 400 }} alt="Home image"/>
+          <img src={homeImage} style={{ width: 500, height: 400 }} alt="Home" />
         </section>
         <section className="simple-section">
           <div className="simple-section-first">
@@ -56,7 +56,7 @@ export default function App() {
               <img src={environmentListImage} alt=""/>
             </div>
             <div className="content">
-              <img src={environmentsImage}></img>
+              <img src={environmentsImage} alt="Environment list" />
               <div>
                 <h2>Take notes and create tasks</h2>
                 <p>Organize your tasks in a list or create a custom annotation to remember a important thing.</p>
@@ -65,12 +65,12 @@ export default function App() {
           </div>
           <div className="simple-section-second"> 
             <div className="content notes-menu">
-              <img src={groceryList} alt=""/>
-              <img src={noteTask} alt=""/>
-              <img src={momsBirthday} alt=""/>
+              <img src={groceryList} alt="Grocery list"/>
+              <img src={noteTask} alt="Note"/>
+              <img src={momsBirthday} alt="Mom's birthday"/>
             </div>
             <div className="content">
-              <img src={todoImage} alt=""/>
+              <img src={todoImage} alt="Todo" />
               <div>
                 <h2>Move them around</h2>
                 <p>
@@ -84,10 +84,10 @@ export default function App() {
             <div>
               <h2>Big ideas?</h2>
               <p>No problem! Size them as big as you want.</p>
-              <img src={devImage} alt=""/>
+              <img src={devImage} alt="Development"/>
             </div>
             <div>
-              <img src={bigNote} alt=""/>
+              <img src={bigNote} alt="Big note"/>
             </div>
 
           </div>
@@ -97,7 +97,7 @@ export default function App() {
             <h1>But most important...</h1>
           </div>
           <div>
-            <img src={shareImg} alt=""/>
+            <img src={shareImg} alt="Share your ideas"/>
             <h2>Share with anyone</h2>
             <p>
               You can keep it for yourself or you can share it 
@@ -112,7 +112,7 @@ export default function App() {
               <p>Remind is being developed and great ideas are yet to come. Read more</p>
             </div>
             <div>
-              <img src={inProgress} alt=""/>
+              <img src={inProgress} alt="In progress"/>
             </div>
           </div>
           <div>
@@ -122,7 +122,8 @@ export default function App() {
         </section>
       </main>
       <footer>
-          <img src={logo} alt=""/>
+          <img src={logo} style={{ width: 200, height: 64 }} alt="Remind"/>
+          <p>© 2020 Remind. All rights reserved.</p>
       </footer>
     </div>
   );
