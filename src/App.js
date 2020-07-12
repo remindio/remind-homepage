@@ -34,32 +34,42 @@ export default function App() {
       </header>
       <main>
         <section className="main-section">
-          <div className="main-description">
-            <h1>The complete productivity environment</h1>
-            <div className="main-subdescription">
-              <p>Everything you need, in one place</p>
-              <button>Get Started</button>
+          <div className="main-section-div">
+            <div className="main-description">
+              <h1>The complete productivity environment</h1>
+              <div className="main-subdescription">
+                <p>Everything you need, in one place</p>
+                <button>Get Started</button>
+              </div>
+            </div>
+            <div className="main-image">
+              <img src={homeImage} style={{ width: 500, height: 400 }} alt="Home" />
             </div>
           </div>
-          <img src={homeImage} style={{ width: 500, height: 400 }} alt="Home" />
         </section>
         <section className="simple-section">
           <div className="simple-section-first">
-            <div className="title">
-              <h1>It's very simple</h1>
-            </div>
-            <div className="content">
-              <div>
-                <h2>Create environments</h2>
-                <p>As many as you want, for everything that you need. A environment is where your information is organized.</p>
-              </div>             
-              <img src={environmentListImage} alt=""/>
-            </div>
-            <div className="content">
-              <img src={environmentsImage} alt="Environment list" />
-              <div>
-                <h2>Take notes and create tasks</h2>
-                <p>Organize your tasks in a list or create a custom annotation to remember a important thing.</p>
+            <div className="simple-section-content">
+              <div className="title">
+                <h1>It's very simple</h1>
+              </div>
+              <div className="content">
+                <div className="content-text">
+                  <h2>Create environments</h2>
+                  <p>As many as you want, for everything that you need. A environment is where your information is organized.</p>
+                </div>
+                <div>       
+                  <img src={environmentListImage} alt=""/>
+                </div>
+              </div>
+              <div className="content">
+                <div className="content-image">
+                  <img src={environmentsImage} alt="Environment list" />
+                </div>
+                <div className="content-text right">
+                  <h2>Take notes and create tasks</h2>
+                  <p>Organize your tasks in a list or create a custom annotation to remember a important thing.</p>
+                </div>
               </div>
             </div>
           </div>
