@@ -34,54 +34,60 @@ export default function App() {
       </header>
       <main>
         <section className="main-section">
-          <div className="main-section-div">
-            <div className="main-description">
-              <h1>The complete productivity environment</h1>
-              <div className="main-subdescription">
-                <p>Everything you need, in one place</p>
-                <button>Get Started</button>
+          <div className="main-section-content">
+            <div className="content">
+              <div className="main-description">
+                <h1>The complete productivity environment</h1>
+                <div className="main-subdescription">
+                  <p>Everything you need, in one place</p>
+                  <button>Get Started</button>
+                </div>
               </div>
-            </div>
-            <div className="main-image">
-              <img src={homeImage} style={{ width: 500, height: 400 }} alt="Home" />
+              <div className="main-image">
+                <img src={homeImage} style={{ width: 500, height: 400 }} alt="Home" />
+              </div>
             </div>
           </div>
         </section>
-        <section className="simple-section">
-          <div className="simple-section-first">
-            <div className="simple-section-content">
-              <div className="title">
-                <h1>It's very simple</h1>
+        <section className="first-section">
+          <div className="first-section-content">
+            <div className="title">
+              <h1>It's very simple</h1>
+            </div>
+            <div className="content">
+              <div className="content-text">
+                <h2>Create environments</h2>
+                <p>As many as you want, for everything that you need. A environment is where your information is organized.</p>
               </div>
-              <div className="content">
-                <div className="content-text">
-                  <h2>Create environments</h2>
-                  <p>As many as you want, for everything that you need. A environment is where your information is organized.</p>
-                </div>
-                <div>       
-                  <img src={environmentListImage} alt=""/>
-                </div>
+              <div>       
+                <img src={environmentListImage} alt=""/>
               </div>
-              <div className="content">
-                <div className="content-image">
-                  <img src={environmentsImage} alt="Environment list" />
-                </div>
-                <div className="content-text right">
+            </div>
+            <div className="content">
+              <div>
+                <img src={environmentsImage} alt="Environment list" />
+              </div>
+              <div className="content-text right">
+                <div>
                   <h2>Take notes and create tasks</h2>
                   <p>Organize your tasks in a list or create a custom annotation to remember a important thing.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="simple-section-second"> 
+        </section>
+        <section className="second-section">
+          <div className="second-section-content"> 
             <div className="content notes-menu">
               <img src={groceryList} alt="Grocery list"/>
               <img src={noteTask} alt="Note"/>
               <img src={momsBirthday} alt="Mom's birthday"/>
             </div>
             <div className="content">
-              <img src={todoImage} alt="Todo" />
-              <div>
+              <div className="content-image">
+                <img src={todoImage} alt="Todo" />
+              </div>
+              <div className="content-text">
                 <h2>Move them around</h2>
                 <p>
                   Everything is draggable! 
@@ -90,46 +96,55 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div className="simple-section-third">
-            <div>
-              <h2>Big ideas?</h2>
-              <p>No problem! Size them as big as you want.</p>
-              <img src={devImage} alt="Development"/>
+        </section>
+        <section className="third-section">
+          <div className="third-section-content">
+            <div className="content">
+              <div className="content-text">
+                <h2>Big ideas?</h2>
+                <p>No problem! Size them as big as you want.</p>
+                <img src={devImage} alt="Development"/>
+              </div>
+              <div className="content-image">
+                <img src={bigNote} alt="Big note"/>
+              </div>
             </div>
-            <div>
-              <img src={bigNote} alt="Big note"/>
-            </div>
-
           </div>
         </section>
         <section className="important-section">
-          <div className="section-title">
-            <h1>But most important...</h1>
-          </div>
           <div className="important-section-content">
-            <img src={shareImg} alt="Share your ideas"/>
-            <div>
-              <h2>Share with anyone</h2>
-              <p>
-                You can keep it for yourself or you can share it 
-                with friends or co-workers. It is up to you.
-              </p>
+            <div className="section-title">
+              <h1>But most important...</h1>
+            </div>
+            <div className="content">
+              <img src={shareImg} alt="Share your ideas"/>
+              <div>
+                <h2>Share with anyone</h2>
+                <p>
+                  You can keep it for yourself or you can share it 
+                  with friends or co-workers. It is up to you.
+                </p>
+              </div>
             </div>
           </div>
         </section>
         <section className="last-section">
-          <div className="last-section-inner-container">
-            <div className="much-more-description">
-              <h2>And much more in the future</h2>
-              <p>Remind is being developed and great ideas are yet to come. <a href="/about">Read more</a></p>
-            </div>
-            <div>
-              <img src={inProgress} alt="In progress"/>
+          <div className="last-section-content"> 
+            <div className="upper-container">
+              <div className="content-text">
+                <h2>And much more in the future</h2>
+                <p>Remind is being developed and great ideas are yet to come. <a href="/about">Read more</a></p>
+              </div>
+              <div>
+                <img src={inProgress} alt="In progress"/>
+              </div>
             </div>
           </div>
-          <div className="remind-description">
-            <h1>Remind is simple, customizable and all you need</h1>
-            <button>Get Started</button>
+          <div className="last-section-content">
+            <div className="remind-description">
+              <h1>Remind is simple, customizable and all you need</h1>
+              <button>Get Started</button>
+            </div>
           </div>
         </section>
       </main>
