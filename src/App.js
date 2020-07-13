@@ -5,7 +5,7 @@ import environmentListImage from './assets/environment_list-image.svg'
 import environmentsImage from './assets/environments_image.svg'
 import bigNote from './assets/big-note_image.svg'
 import devImage from './assets/dev_image.svg'
-import groceryList from './assets/grocery-list_image.png'
+import groceryList from './assets/grocery-list_image.svg'
 import inProgress from './assets/in-progress_image.svg'
 import momsBirthday from './assets/moms-birthday_image.svg'
 import noteTask from './assets/note-task_image.svg'
@@ -78,21 +78,25 @@ export default function App() {
         </section>
         <section className="second-section">
           <div className="second-section-content"> 
-            <div className="content notes-menu">
-              <img src={groceryList} alt="Grocery list"/>
-              <img src={noteTask} alt="Note"/>
-              <img src={momsBirthday} alt="Mom's birthday"/>
+            <div className="content">
+              <div className="notes-menu">
+                <img src={groceryList} alt="Grocery list"/>
+                <img src={noteTask} alt="Note"/>
+                <img src={momsBirthday} alt="Mom's birthday"/>
+              </div>
             </div>
             <div className="content">
-              <div className="content-image">
+              <div>
                 <img src={todoImage} alt="Todo" />
               </div>
-              <div className="content-text">
-                <h2>Move them around</h2>
-                <p>
-                  Everything is draggable! 
-                  Arrange notes and tasks the way you think they should be organized.
-                </p>
+              <div className="content-text right">
+                <div>
+                  <h2>Move them around</h2>
+                  <p>
+                    Everything is draggable! 
+                    Arrange notes and tasks the way you think they should be organized.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -113,12 +117,12 @@ export default function App() {
         </section>
         <section className="important-section">
           <div className="important-section-content">
-            <div className="section-title">
+            <div className="title">
               <h1>But most important...</h1>
             </div>
             <div className="content">
               <img src={shareImg} alt="Share your ideas"/>
-              <div>
+              <div className="content-text">
                 <h2>Share with anyone</h2>
                 <p>
                   You can keep it for yourself or you can share it 
@@ -130,7 +134,7 @@ export default function App() {
         </section>
         <section className="last-section">
           <div className="last-section-content"> 
-            <div className="upper-container">
+            <div className="content">
               <div className="content-text">
                 <h2>And much more in the future</h2>
                 <p>Remind is being developed and great ideas are yet to come. <a href="/about">Read more</a></p>
@@ -142,7 +146,7 @@ export default function App() {
           </div>
           <div className="last-section-content">
             <div className="remind-description">
-              <h1>Remind is simple, customizable and all you need</h1>
+              <h3>Remind is simple, customizable and all you need</h3>
               <button>Get Started</button>
             </div>
           </div>

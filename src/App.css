@@ -57,49 +57,51 @@ h1, h2 {
 
 /* ------------------------- MAIN SECTION CONTENT ------------------------------ */
 
-.home-page .main-section {
-  height: 800px;
+.home-page main .main-section {
+  height: 80vh;
 }
 
-.home-page .main-section .main-section-content {
+.home-page main .main-section .main-section-content {
   display: flex;
   padding: 0 18%;
   width: 100%;
   height: 100%;
 }
 
-.home-page .main-section .main-section-content .content {
+.home-page main .main-section .main-section-content .content {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.home-page .main-section .main-section-content .main-description {
+.home-page main .main-section .main-section-content .main-description {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.home-page .main-section .main-section-content .main-description h1 {
+.home-page main .main-section .main-section-content .main-description h1 {
   font-size: 40px;
   color: #303030;
+  margin-bottom: 15px;
 }
 
-.home-page .main-section .main-section-content .main-subdescription {
+.home-page main .main-section .main-section-content .main-subdescription {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 5px;
+  margin-left: 5px;
 }
 
-.home-page .main-section .main-section-content .main-subdescription p {
+.home-page main .main-section .main-section-content .main-subdescription p {
   font-size: 25px;
   color: #666666;
 }
 
-.home-page .main-section .main-section-content .main-subdescription button {
+.home-page main .main-section .main-section-content .main-subdescription button {
   background-color: #00A5CF;
   padding: 10px;
   border-radius: 15px;
@@ -113,14 +115,14 @@ h1, h2 {
   cursor: pointer;
 }
 
-.home-page .main-section .main-section-content .main-subdescription button:hover {
+.home-page main .main-section .main-section-content .main-subdescription button:hover {
   filter: brightness(90%);
 }
 
 
 /* ------------------------- FIRST SECTION CONTENT ------------------------------ */
 
-.home-page .first-section {
+.home-page main .first-section {
   background-image: url("./assets/simple-section_bd.png");
   background-position: center;
   background-size: 100% 100%;
@@ -128,7 +130,7 @@ h1, h2 {
 }
 
 
-.home-page .first-section .first-section-content {
+.home-page main .first-section .first-section-content {
   padding: 0 18%;
   display: flex;
   flex-direction: column;
@@ -136,13 +138,13 @@ h1, h2 {
   flex-wrap: wrap;
 }
 
-.home-page .first-section .first-section-content .title {
-  font-size: 32px;
+.home-page main .first-section .first-section-content .title h1 {
+  font-size: 40px;
   font-weight: 700;
   margin: 100px auto 75px auto;
 }
 
-.home-page .first-section .first-section-content .content {
+.home-page main .first-section .first-section-content .content {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -150,17 +152,18 @@ h1, h2 {
   margin-bottom: 50px;
 }
 
-.home-page .first-section .first-section-content .content .content-text {
+.home-page main .first-section .first-section-content .content .content-text {
   width: 50%;
 }
 
-.home-page .first-section .first-section-content .content .content-text h2 {
-  font-size: 34px;
+.home-page main .first-section .first-section-content .content .content-text h2 {
+  font-size: 38px;
   font-weight: 600;
   white-space: nowrap;
+  margin-bottom: 15px;
 }
 
-.home-page .first-section .first-section-content .content .content-text p {
+.home-page main .first-section .first-section-content .content .content-text p {
   font-size: 22px;
   font-weight: 400;
   color: #666;
@@ -168,17 +171,17 @@ h1, h2 {
   line-height: 1.3;
 }
 
-.home-page .first-section .first-section-content .content .content-text.right {
+.home-page main .first-section .first-section-content .content .content-text.right {
   display: flex;
   justify-content: flex-end;
 }
 
-.home-page .first-section .first-section-content .content .content-text.right div {
+.home-page main .first-section .first-section-content .content .content-text.right div {
   width: 70%;
 }
 
 
-.home-page .first-section .first-section-content .content .content-text.right div p {
+.home-page main .first-section .first-section-content .content .content-text.right div p {
   width: 100%;
 }
 
@@ -186,44 +189,101 @@ h1, h2 {
 
 /* ------------------------- SECOND SECTION CONTENT ------------------------------ */
 
-.home-page .simple-section .simple-section-second {
+.home-page main .second-section .second-section-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.home-page .simple-section .simple-section-second div {
   padding: 0 18%;
 }
 
-.home-page .simple-section .simple-section-second .content {
+.home-page main .second-section .second-section-content .content {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.home-page .simple-section .simple-section-second .notes-menu {
+.home-page main .second-section .second-section-content .content .notes-menu {
+
   margin-bottom: 100px;
 }
 
-.home-page .simple-section .simple-section-second .content h2 {
+.home-page main .second-section .second-section-content .content .content-text {
+  width: 50%;
+}
+
+.home-page main .second-section .second-section-content .content .content-text h2 {
   font-size: 38px;
   font-weight: 600;
   white-space: nowrap;
+  margin-bottom: 15px;
 }
 
-.home-page .simple-section .simple-section-second .content p {
+.home-page main .second-section .second-section-content .content .content-text p {
   font-size: 22px;
   font-weight: 400;
   color: #666;
+  width: 80%;
+  line-height: 1.3;
+}
+
+.home-page main .second-section .second-section-content .content .content-text.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-page main .second-section .second-section-content .content .content-text.right div {
+  width: 70%;
+}
+
+
+.home-page main .second-section .second-section-content .content .content-text.right div p {
   width: 100%;
 }
 
-.home-page .simple-section .simple-section-third {
+/* ------------------------- THIRD SECTION CONTENT ------------------------------ */
+
+
+.home-page main .third-section {
   background-image: url("./assets/big-ideias_bd.png");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 0;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.home-page main .third-section .third-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 18%;
+}
+
+.home-page main .third-section .third-section-content .content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.home-page main .third-section .third-section-content .content .content-image img {
+  width: 100%;
+}
+
+.home-page main .third-section .third-section-content .content .content-text h2 {
+  font-size: 38px;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.home-page main .third-section .third-section-content .content .content-text p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #666;
+  width: 80%;
+  line-height: 1.3;
+  margin-bottom: 75px;
 }
 
 /* ------------------------- IMPORTANT SECTION CONTENT ------------------------------ */
@@ -237,12 +297,12 @@ h1, h2 {
   margin: 60px 0 0 0;
 }
 
-.home-page main .important-section .important-section-content .section-title {
-  margin-bottom: 30px;
+.home-page main .important-section .important-section-content .title {
+  margin-bottom: 50px;
 }
 
-.home-page main .important-section .important-section-content .section-title h1 {
-  font-size: 44px;
+.home-page main .important-section .important-section-content .title h1 {
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -253,20 +313,23 @@ h1, h2 {
   margin-top: 50px;
 }
 
-.home-page main .important-section .important-section-content .content div {
+.home-page main .important-section .important-section-content .content .content-text {
   width: 30%;
 }
 
-.home-page main .important-section .important-section-content .content div h2 {
+.home-page main .important-section .important-section-content .content .content-text h2 {
   color: #303030;
   font-size: 38px;
+  margin-bottom: 15px;
+  font-weight: 600;
 }
 
-.home-page main .important-section .important-section-content .content div p {
+.home-page main .important-section .important-section-content .content .content-text p {
   font-size: 22px;
   font-weight: 400;
   color: #666;
   width: 80%;
+  line-height: 1.3;
 }
 
 /* ------------------------- LAST SECTION CONTENT ------------------------------ */
@@ -287,28 +350,31 @@ h1, h2 {
   width: 100%;
 }
 
-.home-page main .last-section .last-section-content .upper-container {
+.home-page main .last-section .last-section-content .content {
   display: flex;
   justify-content: center;
 }
 
-.home-page main .last-section .last-section-content .upper-container .content-text {
+.home-page main .last-section .last-section-content .content .content-text {
   align-self: center;
 }
 
-.home-page main .last-section .last-section-content .upper-container .content-text h2 {
+.home-page main .last-section .last-section-content .content .content-text h2 {
   color: #303030;
   font-size: 38px;
+  margin-bottom: 15px;
+  font-weight: 600;
 }
 
-.home-page main .last-section .last-section-content .upper-container .content-text p {
+.home-page main .last-section .last-section-content .content .content-text p {
   font-size: 22px;
   font-weight: 400;
   color: #666;
-  width: 70%;
+  width: 80%;
+  line-height: 1.3;
 }
 
-.home-page main .last-section .upper-container .content-text p a {
+.home-page main .last-section .content .content-text p a {
   color: #00A5CF;
 }
 
@@ -323,7 +389,7 @@ h1, h2 {
   padding: 200px 0 100px 0;
 }
 
-.home-page main .last-section .remind-description h1 {
+.home-page main .last-section .remind-description h3 {
   font-weight: 500;
   font-size: 30px;
   color: #303030;
