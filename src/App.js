@@ -26,8 +26,8 @@ export default function App() {
               <a href="/about">About</a>
             </div>
             <div>
-              <a href="http://localhost:3333/users/sign_in">Login</a>
-              <a href="http://localhost:3333/users/sign_up">Sign up</a>
+              <a href="https://app-remind.herokuapp.com/users/sign_in">Login</a>
+              <a href="https://app-remind.herokuapp.com/users/sign_up">Sign up</a>
             </div>
           </div>
         </nav>
