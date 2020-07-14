@@ -174,10 +174,12 @@ h1, h2 {
 .home-page main .first-section .first-section-content .content .content-text.right {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  padding-right: 25px;
 }
 
 .home-page main .first-section .first-section-content .content .content-text.right div {
-  width: 70%;
+  width: 80%;
 }
 
 
@@ -200,11 +202,31 @@ h1, h2 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .home-page main .second-section .second-section-content .content .notes-menu {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  margin-bottom: 100px;
+.home-page main .second-section .second-section-content .content .notes-menu img {
+  width: 30%;
+}
+
+.home-page main .second-section .second-section-content .content .notes-menu .list {
+  padding-top: 50px;
+}
+
+.home-page main .second-section .second-section-content .content .notes-menu .menu {
+  width: 20%;
+  padding-bottom: 50px;
+}
+
+.home-page main .second-section .second-section-content .content .notes-menu .note {
+  padding-bottom: 150px;
 }
 
 .home-page main .second-section .second-section-content .content .content-text {
@@ -353,6 +375,7 @@ h1, h2 {
 .home-page main .last-section .last-section-content .content {
   display: flex;
   justify-content: center;
+  padding-top: 75px;
 }
 
 .home-page main .last-section .last-section-content .content .content-text {

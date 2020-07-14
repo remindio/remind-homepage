@@ -80,9 +80,9 @@ export default function App() {
           <div className="second-section-content"> 
             <div className="content">
               <div className="notes-menu">
-                <img src={groceryList} alt="Grocery list"/>
-                <img src={noteTask} alt="Note"/>
-                <img src={momsBirthday} alt="Mom's birthday"/>
+                <img className="list" src={groceryList} alt="Grocery list"/>
+                <img className="menu" src={noteTask} alt="Note"/>
+                <img className="note" src={momsBirthday} alt="Mom's birthday"/>
               </div>
             </div>
             <div className="content">
