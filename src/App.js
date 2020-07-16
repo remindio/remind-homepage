@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './assets/Remind.svg'
+import { GiHamburgerMenu } from 'react-icons/gi'
 import homeImage from './assets/home_image.svg'
 import environmentListImage from './assets/environment_list-image.svg'
 import environmentsImage from './assets/environments_image.svg'
@@ -23,7 +24,7 @@ export default function App() {
           <a href="/">
             <img src={logo} style={{ width: 100, height: 64 }} alt="Remind"/>
           </a>
-          <div>
+          <div className="nav-itens">
             <div className="about-container">
               <a href="/about">About</a>
             </div>
@@ -31,6 +32,9 @@ export default function App() {
               <a href="https://app-remind.herokuapp.com/users/sign_in">Login</a>
               <a href="https://app-remind.herokuapp.com/users/sign_up">Sign up</a>
             </div>
+          </div>
+          <div className="menu">
+            <GiHamburgerMenu size={25} style={{ color: "#303030" }}/>
           </div>
         </nav>
       </header>
