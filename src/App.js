@@ -20,7 +20,9 @@ export default function App() {
     <div className="home-page">
       <header>
         <nav>
-          <img src={logo} style={{ width: 100, height: 64 }} alt="Remind"/>
+          <a href="/">
+            <img src={logo} style={{ width: 100, height: 64 }} alt="Remind"/>
+          </a>
           <div>
             <div className="about-container">
               <a href="/about">About</a>
@@ -40,7 +42,7 @@ export default function App() {
                 <h1>The complete productivity environment</h1>
                 <div className="main-subdescription">
                   <p>Everything you need, in one place</p>
-                  <button>Get Started</button>
+                  <a href="#get-started">Get Started</a>
                 </div>
               </div>
               <div className="main-image">
@@ -49,7 +51,7 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section className="first-section">
+        <section id="get-started" className="first-section">
           <div className="first-section-content">
             <div className="title">
               <h1>It's very simple</h1>
@@ -147,7 +149,7 @@ export default function App() {
           <div className="last-section-content">
             <div className="remind-description">
               <h3>Remind is simple, customizable and all you need</h3>
-              <button>Get Started</button>
+              <a href="https://app-remind.herokuapp.com/users/sign_up">Register now</a>
             </div>
           </div>
         </section>

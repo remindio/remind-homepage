@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 
 h1, h2 {
@@ -59,6 +60,7 @@ h1, h2 {
 
 .home-page main .main-section {
   height: 80vh;
+  
 }
 
 .home-page main .main-section .main-section-content {
@@ -101,21 +103,22 @@ h1, h2 {
   color: #666666;
 }
 
-.home-page main .main-section .main-section-content .main-subdescription button {
+.home-page main .main-section .main-section-content .main-subdescription a {
   background-color: #00A5CF;
-  padding: 10px;
+  padding: 15px;
   border-radius: 15px;
   outline: none;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   border: none;
   margin-left: 20px;
+  text-decoration: none;
   color: #fff;
   transition: filter 0.3s;
   cursor: pointer;
 }
 
-.home-page main .main-section .main-section-content .main-subdescription button:hover {
+.home-page main .main-section .main-section-content .main-subdescription a:hover {
   filter: brightness(90%);
 }
 
@@ -418,18 +421,23 @@ h1, h2 {
   color: #303030;
 }
 
-.home-page main .last-section .remind-description button {
+.home-page main .last-section .remind-description a {
   background-color: #00A5CF;
-  padding: 10px;
+  text-decoration: none;
+  padding: 15px;
   border-radius: 15px;
   outline: none;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   border: none;
   margin-top: 20px;
   color: #fff;
   transition: filter 0.3s;
   cursor: pointer;
+}
+
+.home-page main .last-section .remind-description a:hover {
+  filter: brightness(90%);
 }
 
 .home-page footer {
