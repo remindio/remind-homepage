@@ -171,8 +171,8 @@ h1, h2 {
 }
 
 .home-page main .main-section .main-section-content .content .main-image img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* ------------------------- FIRST SECTION CONTENT ------------------------------ */
@@ -197,6 +197,7 @@ h1, h2 {
   font-size: 40px;
   font-weight: 700;
   margin: 100px auto 75px auto;
+  text-align: center;
 }
 
 .home-page main .first-section .first-section-content .content {
@@ -205,6 +206,24 @@ h1, h2 {
   width: 100%;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+
+.home-page main .first-section .first-section-content .content .environment-list-image {
+  width: 50%;
+}
+
+.home-page main .first-section .first-section-content .content .environment-list-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.home-page main .first-section .first-section-content .content .man-environments {
+  width: 50%;
+}
+
+.home-page main .first-section .first-section-content .content .man-environments img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .home-page main .first-section .first-section-content .content .content-text {
@@ -237,6 +256,10 @@ h1, h2 {
   width: 80%;
 }
 
+.home-page main .first-section .first-section-content .content .content-text.right div h2 {
+  word-wrap: break-word;
+  width: 100%;
+}
 
 .home-page main .first-section .first-section-content .content .content-text.right div p {
   width: 100%;

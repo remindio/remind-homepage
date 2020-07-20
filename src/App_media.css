@@ -56,16 +56,80 @@
   .home-page main .main-section .main-section-content .main-subdescription {
     align-items: center;
   }
+
+  .home-page main .first-section .first-section-content .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-page main .first-section .first-section-content .content.take-notes {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text {
+    width: 100%;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text h2 {
+    text-align: center;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .home-page main .first-section .first-section-content .content .environment-list-image {
+    margin-top: 30px;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text.right {
+    padding: 0;
+    justify-self: center;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+  }
+  
+  .home-page main .first-section .first-section-content .content .content-text.right div {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text.right div p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .man-environments {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 716px) {
   .home-page main .main-section .main-section-content .main-description h1 {
     font-size: 38px;
   }
+
+  .home-page main .first-section .first-section-content .title h1 {
+    font-size: 38px;
+  }
 }
 
 @media screen and (max-width: 681px) {
   .home-page main .main-section .main-section-content .main-description h1 {
+    font-size: 34px;
+  }
+
+  .home-page main .first-section .first-section-content .title h1 {
     font-size: 34px;
   }
 }
@@ -85,6 +149,9 @@
     font-size: 33px;
   }
 
+  .home-page main .first-section .first-section-content .title h1 {
+    font-size: 33px;
+  }
 }
 
 @media screen and (max-width: 596px) {
@@ -103,6 +170,10 @@
   .home-page main .main-section .main-section-content .content .main-image {
     height: 300px;
   }
+
+  .home-page main .first-section .first-section-content .title h1 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 424px) { 
@@ -114,6 +185,9 @@
     font-size: 28px;
   }
   
+  .home-page main .first-section .first-section-content .title h1 {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -123,6 +197,10 @@
 
   .home-page main .main-section .main-section-content .main-description p {
     font-size: 20px;
+  }
+
+  .home-page main .first-section .first-section-content .title h1 {
+    font-size: 25px;
   }
 }
 

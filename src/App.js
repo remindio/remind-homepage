@@ -87,12 +87,12 @@ export default function App() {
                 <h2>Create environments</h2>
                 <p>As many as you want, for everything that you need. A environment is where your information is organized.</p>
               </div>
-              <div>       
+              <div className="environment-list-image">       
                 <img src={environmentListImage} alt=""/>
               </div>
             </div>
-            <div className="content">
-              <div>
+            <div className="content take-notes">
+              <div className="man-environments">
                 <img src={environmentsImage} alt="Environment list" />
               </div>
               <div className="content-text right">
