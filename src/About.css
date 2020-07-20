@@ -6,17 +6,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
-}
-
-h1 {
-  color: #303030;
-  font-size: 44px;
-}
-
-p {
-  color: #666;
-  font-size: 22px;
-  line-height: 1.4;
+  background-color: #EFEFEF;
 }
 
 .about-page {
@@ -65,34 +55,35 @@ p {
   display: none;
 }
 
-.about-page main {
-  height: 90vh;
-}
-
-.about-page main .main-section {
-  padding: 10% 20%;
-  width: 100%;
-  height: 100%;
+.about-page main .main-section .main-section-content {
+  padding: 10% 18%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
 
-.about-page main .main-section .content {
+.about-page main .main-section .main-section-content .content {
   width: 50%;
+  margin-bottom: 75px;
 }
 
-.about-page main .main-section .content h1 {
+.about-page main .main-section .main-section-content .content h1 {
   margin-bottom: 12px;
+  color: #303030;
+  font-size: 44px;
+}
+.about-page main .main-section .main-section-content .content p {
+  color: #666;
+  font-size: 22px;
+  line-height: 1.4;
 }
 
-.about-page main .main-section .content .mission {
+.about-page main .main-section .main-section-content .content .mission {
   color: #08605F;
 }
 
-.about-page main .main-section .content .about {
+.about-page main .main-section .main-section-content .content .about {
   color: #229897;
 }
-
 
