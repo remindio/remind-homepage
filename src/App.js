@@ -135,9 +135,11 @@ export default function App() {
               <div className="content-text">
                 <h2>Big ideas?</h2>
                 <p>No problem! Size them as big as you want.</p>
-                <img src={devImage} alt="Development"/>
+                <div>
+                  <img src={devImage} alt="Development"/>
+                </div>
               </div>
-              <div className="content-image">
+              <div id="big-note" className="content-image">
                 <img src={bigNote} alt="Big note"/>
               </div>
             </div>
