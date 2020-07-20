@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './assets/Remind.svg'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { MdClose } from 'react-icons/md'
 import homeImage from './assets/home_image.svg'
 import environmentListImage from './assets/environment_list-image.svg'
 import environmentsImage from './assets/environments_image.svg'
@@ -17,6 +18,10 @@ import todoImage from './assets/todo_image.png'
 import './App.css'
 
 export default function App() {
+
+  const displayMenu = () => document.getElementById("menu-hidden").id = 'menu-shown';
+  const hideMenu = () => document.getElementById("menu-shown").id = 'menu-hidden';
+
   return (
     <div className="home-page">
       <header>
@@ -34,10 +39,26 @@ export default function App() {
             </div>
           </div>
           <div className="menu">
-            <GiHamburgerMenu size={25} style={{ color: "#303030" }}/>
+            <GiHamburgerMenu size={25} style={{ color: "#303030", cursor: 'pointer' }} onClick={displayMenu}/>
           </div>
         </nav>
       </header>
+      <div id="menu-hidden">
+        <MdClose size={35} onClick={hideMenu} />
+        <div>
+          <ul>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="https://app-remind.herokuapp.com/users/sign_in">Login</a>
+            </li>
+            <li>
+              <a href="https://app-remind.herokuapp.com/users/sign_up">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <main>
         <section className="main-section">
           <div className="main-section-content">
