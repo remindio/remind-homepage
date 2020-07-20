@@ -103,17 +103,6 @@ h1, h2 {
   color: #fff;
 }
 
-
-@media screen and (max-width: 650px) {
-  .home-page header nav .nav-itens {
-    display: none;
-  }
-
-  .home-page header nav .menu {
-    display: block;
-  }
-}
-
 /* ------------------------- MAIN SECTION CONTENT ------------------------------ */
 
 .home-page main .main-section {
@@ -184,101 +173,6 @@ h1, h2 {
 .home-page main .main-section .main-section-content .content .main-image img {
     max-width: 100%;
     max-height: 100%;
-}
-
-
-@media screen and (max-width: 1118px) {
-  .home-page main .main-section .main-section-content .main-subdescription {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .home-page main .main-section .main-section-content .main-subdescription p {
-    margin-bottom: 15px;
-  }
-
-  .home-page main .main-section .main-section-content .main-subdescription a {
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .home-page main .main-section .main-section-content .main-description h1 {
-    text-align: center;
-  }
-
-  .home-page main .main-section .main-section-content .content {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .home-page main .main-section .main-section-content .main-subdescription {
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 716px) {
-  .home-page main .main-section .main-section-content .main-description h1 {
-    font-size: 38px;
-  }
-}
-
-@media screen and (max-width: 681px) {
-  .home-page main .main-section .main-section-content .main-description h1 {
-    font-size: 34px;
-  }
-}
-
-@media screen and (max-width: 611px) {
-  .home-page main .main-section .main-section-content .main-description h1 {
-    font-size: 33px;
-  }
-
-}
-
-@media screen and (max-width: 596px) {
-  .home-page main .main-section .main-section-content .main-description h1 {
-    font-size: 30px;
-  }
-  .home-page main .main-section .main-section-content .main-subdescription p {
-    font-size: 22px;
-  }
-
-  .home-page main .main-section .main-section-content .main-subdescription a {
-    padding: 12px;
-    font-size: 14px;
-  }
-
-  .home-page main .main-section .main-section-content .content .main-image {
-    height: 300px;
-  }
-}
-
-@media screen and (max-width: 424px) { 
-  .home-page main .main-section .main-section-content .main-subdescription p {
-    text-align: center;
-  }
-
-  .home-page main .main-section .main-section-content .main-description h1 {
-    font-size: 28px;
-  }
-  
-}
-
-@media screen and (max-width: 400px) {
-  .home-page main .main-section .main-section-content .main-description h1 {
-    font-size: 25px;
-  }
-
-  .home-page main .main-section .main-section-content .main-description p {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .home-page main .main-section .main-section-content .content .main-image {
-    height: 200px;
-  }
 }
 
 /* ------------------------- FIRST SECTION CONTENT ------------------------------ */
@@ -576,6 +470,7 @@ h1, h2 {
 .home-page main .last-section .remind-description h3 {
   font-weight: 500;
   font-size: 30px;
+  text-align: center;
   color: #303030;
 }
 
@@ -610,35 +505,4 @@ h1, h2 {
 
 .home-page footer p {
   margin-top: 20px;
-}
-
-
-@media screen and (max-width: 1680px) {
-  .home-page main .main-section .main-section-content {
-    padding: 0 10%;
-  } 
-
-  .home-page header nav {
-    padding: 0 10%;
-  }
-
-  .home-page main .last-section .last-section-content {
-    padding: 0 10%;
-  }
-
-  .home-page main .important-section .important-section-content {
-    padding: 0 10%;
-  }
-
-  .home-page main .third-section .third-section-content {
-    padding: 0 10%;
-  }
-
-  .home-page main .first-section .first-section-content {
-    padding: 0 10%;
-  }
-
-  .home-page main .second-section .second-section-content {
-    padding: 0 10%;
-  }
 }

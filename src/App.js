@@ -16,6 +16,7 @@ import todoImage from './assets/todo_image.png'
 
 
 import './App.css'
+import './App_media.css'
 
 export default function App() {
 
