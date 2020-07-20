@@ -73,7 +73,7 @@ h1, h2 {
 /* ------------------------- MAIN SECTION CONTENT ------------------------------ */
 
 .home-page main .main-section {
-  height: 80vh;
+  height: 85vh;
 }
 
 .home-page main .main-section .main-section-content {
@@ -139,12 +139,11 @@ h1, h2 {
 
 .home-page main .main-section .main-section-content .content .main-image img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 
 @media screen and (max-width: 1118px) {
-  
-
   .home-page main .main-section .main-section-content .main-subdescription {
     display: flex;
     flex-direction: column;
@@ -169,10 +168,6 @@ h1, h2 {
     justify-content: center;
   }
 
-  .home-page main .main-section .main-section-content .content .main-image {
-    padding: 0;
-  }
-
   .home-page main .main-section .main-section-content .main-subdescription {
     align-items: center;
   }
@@ -181,10 +176,6 @@ h1, h2 {
 @media screen and (max-width: 716px) {
   .home-page main .main-section .main-section-content .main-description h1 {
     font-size: 38px;
-  }
-
-  .home-page main .main-section .main-section-content {
-    padding: 0 10%;
   }
 }
 
@@ -213,11 +204,36 @@ h1, h2 {
     padding: 12px;
     font-size: 14px;
   }
+
+  .home-page main .main-section .main-section-content .content .main-image {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 424px) { 
   .home-page main .main-section .main-section-content .main-subdescription p {
     text-align: center;
+  }
+
+  .home-page main .main-section .main-section-content .main-description h1 {
+    font-size: 28px;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .home-page main .main-section .main-section-content .main-description h1 {
+    font-size: 25px;
+  }
+
+  .home-page main .main-section .main-section-content .main-description p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-page main .main-section .main-section-content .content .main-image {
+    height: 200px;
   }
 }
 
