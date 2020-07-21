@@ -52,6 +52,10 @@ h1, h2 {
   text-decoration: none;
 }
 
+.home-page header nav .nav-itens a:hover {
+  color: #00A5CF;
+}
+
 .home-page header nav .nav-itens .about-container {
   border-right: 1px solid #229897;
 }
