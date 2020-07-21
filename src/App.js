@@ -96,10 +96,8 @@ export default function App() {
                 <img src={environmentsImage} alt="Environment list" />
               </div>
               <div className="content-text right">
-                <div>
-                  <h2>Take notes and create tasks</h2>
-                  <p>Organize your tasks in a list or create a custom annotation to remember a important thing.</p>
-                </div>
+                <h2>Take notes and create tasks</h2>
+                <p>Organize your tasks in a list or create a custom annotation to remember a important thing.</p>
               </div>
             </div>
           </div>
@@ -113,18 +111,16 @@ export default function App() {
                 <img className="note" src={momsBirthday} alt="Mom's birthday"/>
               </div>
             </div>
-            <div className="content">
-              <div>
+            <div className="content move-notes">
+              <div className="content-image" >
                 <img src={todoImage} alt="Todo" />
               </div>
               <div className="content-text right">
-                <div>
-                  <h2>Move them around</h2>
-                  <p>
-                    Everything is draggable! 
-                    Arrange notes and tasks the way you think they should be organized.
-                  </p>
-                </div>
+                <h2>Move them around</h2>
+                <p>
+                  Everything is draggable! 
+                  Arrange notes and tasks the way you think they should be organized.
+                </p>
               </div>
             </div>
           </div>

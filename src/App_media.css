@@ -1,33 +1,3 @@
-@media screen and (max-width: 1680px) {
-  .home-page main .main-section .main-section-content {
-    padding: 0 18%;
-  } 
-
-  .home-page header nav {
-    padding: 0 18%;
-  }
-
-  .home-page main .last-section .last-section-content {
-    padding: 0 18%;
-  }
-
-  .home-page main .important-section .important-section-content {
-    padding: 0 18%;
-  }
-
-  .home-page main .third-section .third-section-content {
-    padding: 0 18%;
-  }
-
-  .home-page main .first-section .first-section-content {
-    padding: 0 18%;
-  }
-
-  .home-page main .second-section .second-section-content {
-    padding: 0 18%;
-  }
-}
-
 @media screen and (max-width: 1118px) {
   .home-page main .main-section .main-section-content .main-subdescription {
     display: flex;
@@ -84,39 +54,61 @@
   }
 
   .home-page main .first-section .first-section-content .content .environment-list-image {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .home-page main .first-section .first-section-content .content .content-text.right {
-    padding: 0;
-    justify-self: center;
-  }
-
-  .home-page main .first-section .first-section-content .content .content-text.right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 25px;
-  }
-  
-  .home-page main .first-section .first-section-content .content .content-text.right div {
     width: 100%;
-    margin-top: 30px;
   }
 
-  .home-page main .first-section .first-section-content .content .content-text.right div p {
+  .home-page main .first-section .first-section-content .content .content-text.right p {
     width: 80%;
-    text-align: center;
+    margin: auto;
+    padding-left: 0;
   }
 
   .man-environments {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
-  .home-page main .third-section {
+  .home-page main .second-section .second-section-content .content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .home-page main .second-section .second-section-content .content.move-notes {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text {
+    width: 100%;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text h2 {
+    text-align: center;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-image {
+    margin-top: 50px;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text.right {
+    width: 100%;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text.right p {
+    width: 80%;
+    margin: auto;
+    padding-left: 0;
   }
 
   .home-page main .third-section .third-section-content .content h2 {
@@ -201,7 +193,32 @@
   .home-page main .first-section .first-section-content .title h1 {
     font-size: 38px;
   }
+
+  .home-page main .important-section .important-section-content .title h1 {
+    font-size: 38px;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text h2 {
+    font-size: 34px;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text h2 {
+    font-size: 34px;
+  }
+
+  .home-page main .third-section .third-section-content .content .content-text h2 {
+    font-size: 34px;
+  }
+
+  .home-page main .important-section .important-section-content .content .content-text h2 {
+    font-size: 34px;
+  }
+
+  .home-page main .last-section .last-section-content .content .content-text h2 {
+    font-size: 34px;  
+  }
 }
+
 
 @media screen and (max-width: 681px) {
   .home-page main .main-section .main-section-content .main-description h1 {
@@ -210,6 +227,30 @@
 
   .home-page main .first-section .first-section-content .title h1 {
     font-size: 34px;
+  }
+
+  .home-page main .important-section .important-section-content .title h1 {
+    font-size: 34px;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text h2 {
+    font-size: 30px;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text h2 {
+    font-size: 30px;
+  }
+
+  .home-page main .third-section .third-section-content .content .content-text h2 {
+    font-size: 30px;
+  }
+
+  .home-page main .important-section .important-section-content .content .content-text h2 {
+    font-size: 30px;
+  }
+
+  .home-page main .last-section .last-section-content .content .content-text h2 {
+    font-size: 30px;  
   }
 }
 
@@ -259,12 +300,50 @@
   .home-page main .first-section .first-section-content .title h1 {
     font-size: 33px;
   }
+
+  .home-page main .important-section .important-section-content .title h1 {
+    font-size: 33px;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text h2 {
+    font-size: 28px;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text h2 {
+    font-size: 28px;
+  }
+
+  .home-page main .third-section .third-section-content .content .content-text h2 {
+    font-size: 28px;
+  }
+
+  .home-page main .important-section .important-section-content .content .content-text h2 {
+    font-size: 28px;
+  }
+
+  .home-page main .last-section .last-section-content .content .content-text h2 {
+    font-size: 28px;  
+  }
 }
 
 @media screen and (max-width: 596px) {
+
+  .home-page main .main-section .main-section-content .main-description {
+    margin-bottom: 50px;
+  }
+
   .home-page main .main-section .main-section-content .main-description h1 {
     font-size: 30px;
   }
+
+  .home-page main .first-section .first-section-content .title h1 {
+    font-size: 30px;
+  }
+
+  .home-page main .important-section .important-section-content .title h1 {
+    font-size: 30px;
+  }
+
   .home-page main .main-section .main-section-content .main-subdescription p {
     font-size: 22px;
   }
@@ -278,22 +357,83 @@
     height: 300px;
   }
 
-  .home-page main .first-section .first-section-content .title h1 {
-    font-size: 30px;
+  .home-page main .first-section .first-section-content .content .content-text h2 {
+    font-size: 26px;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text h2 {
+    font-size: 26px;
+  }
+
+  .home-page main .third-section .third-section-content .content .content-text h2 {
+    font-size: 26px;
+  }
+
+  .home-page main .important-section .important-section-content .content .content-text h2 {
+    font-size: 26px;
+  }
+
+  .home-page main .last-section .last-section-content .content .content-text h2 {
+    font-size: 26px;  
   }
 }
 
 @media screen and (max-width: 424px) { 
-  .home-page main .main-section .main-section-content .main-subdescription p {
-    text-align: center;
-  }
-
   .home-page main .main-section .main-section-content .main-description h1 {
     font-size: 28px;
   }
   
   .home-page main .first-section .first-section-content .title h1 {
     font-size: 28px;
+  }
+
+  .home-page main .important-section .important-section-content .title h1 {
+    font-size: 28px;
+  }
+
+
+  .home-page main .first-section .first-section-content .content .content-text h2 {
+    font-size: 24px;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text h2 {
+    font-size: 24px;
+  }
+
+  .home-page main .third-section .third-section-content .content .content-text h2 {
+    font-size: 24px;
+  }
+
+  .home-page main .important-section .important-section-content .content .content-text h2 {
+    font-size: 24px;
+  }
+
+  .home-page main .last-section .last-section-content .content .content-text h2 {
+    font-size: 24px;  
+  }
+
+  .home-page main .main-section .main-section-content .main-subdescription p {
+    text-align: center;
+  }
+
+  .home-page main .last-section .last-section-content .content .content-text p {
+    font-size: 20px;
+  }
+
+  .home-page main .important-section .important-section-content .content .content-text p {
+    font-size: 20px;
+  }
+
+  .home-page main .third-section .third-section-content .content .content-text p {
+    font-size: 20px;
+  }
+
+  .home-page main .third-section .second-section-content .content .content-text p {
+    font-size: 20px;
+  }
+
+  .home-page main .third-section .first-section-content .content .content-text p {
+    font-size: 20px;
   }
 }
 
@@ -308,6 +448,51 @@
 
   .home-page main .first-section .first-section-content .title h1 {
     font-size: 25px;
+  }
+
+  .home-page main .important-section .important-section-content .title h1 {
+    font-size: 25px;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text h2 {
+    font-size: 21px;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text h2 {
+    font-size: 21px;
+  }
+
+  .home-page main .third-section .third-section-content .content .content-text h2 {
+    font-size: 21px;
+  }
+
+  .home-page main .important-section .important-section-content .content .content-text h2 {
+    font-size: 21px;
+  }
+
+  .home-page main .last-section .last-section-content .content .content-text h2 {
+    font-size: 21px;  
+  }
+
+
+  .home-page main .last-section .last-section-content .content .content-text p {
+    font-size: 18px;
+  }
+
+  .home-page main .important-section .important-section-content .content .content-text p {
+    font-size: 18px;
+  }
+
+  .home-page main .third-section .third-section-content .content .content-text p {
+    font-size: 18px;
+  }
+
+  .home-page main .second-section .second-section-content .content .content-text p {
+    font-size: 18px;
+  }
+
+  .home-page main .first-section .first-section-content .content .content-text p {
+    font-size: 18px;
   }
 }
 
