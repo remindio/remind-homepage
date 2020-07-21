@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 18%;
+}
+
+header nav .nav-itens {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav .nav-itens a {
+  padding: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #303030;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header nav .nav-itens a:hover {
+  color: #00A5CF;
+}
+
+header nav .nav-itens .about-container {
+  border-right: 1px solid #229897;
+}
+
+header nav .menu {
+  display: none;
+}
+
+#menu-hidden {
+  display: none;
+}
+
+#menu-shown {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu-shown svg {
+  align-self: flex-end;
+  margin: 20px 10%;
+  color: #fff;
+  cursor: pointer;
+}
+
+#menu-shown div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-shown div ul {
+  list-style: none;
+}
+
+#menu-shown div ul li {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+#menu-shown div ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 650px) {
+  header nav .nav-itens {
+    display: none;
+  }
+
+  header nav .menu {
+    display: block;
+  }
+
+  header nav {
+    padding: 0 10%;
+  }
+}

@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './assets/Remind.svg'
-import { GiHamburgerMenu } from 'react-icons/gi'
+import React from 'react'
+
+import Header from './Header'
 
 import './About.css'
 import './About_media.css'
@@ -8,25 +8,7 @@ import './About_media.css'
 export default function About() {
   return (
     <div className="about-page">
-      <header>
-        <nav>
-          <a href="/">
-            <img src={logo} style={{ width: 100, height: 64 }} alt="Remind"/>
-          </a>
-          <div className="nav-itens">
-            <div className="about-container">
-              <a href="/about">About</a>
-            </div>
-            <div>
-              <a href="https://app-remind.herokuapp.com/users/sign_in">Login</a>
-              <a href="https://app-remind.herokuapp.com/users/sign_up">Sign up</a>
-            </div>
-          </div>
-          <div className="menu">
-            <GiHamburgerMenu size={25} style={{ color: "#303030" }}/>
-          </div>
-        </nav>
-      </header>
+      <Header />
       <main>
         <section className="main-section">
           <div className="main-section-content">

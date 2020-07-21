@@ -1,7 +1,5 @@
 import React from 'react'
 import logo from './assets/Remind.svg'
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { MdClose } from 'react-icons/md'
 import homeImage from './assets/home_image.svg'
 import environmentListImage from './assets/environment_list-image.svg'
 import environmentsImage from './assets/environments_image.svg'
@@ -14,52 +12,16 @@ import noteTask from './assets/note-task_image.svg'
 import shareImg from './assets/share_image.png'
 import todoImage from './assets/todo_image.png'
 
+import Header from './Header'
 
 import './App.css'
 import './App_media.css'
 
 export default function App() {
 
-  const displayMenu = () => document.getElementById("menu-hidden").id = 'menu-shown';
-  const hideMenu = () => document.getElementById("menu-shown").id = 'menu-hidden';
-
   return (
     <div className="home-page">
-      <header>
-        <nav>
-          <a href="/">
-            <img src={logo} style={{ width: 100, height: 64 }} alt="Remind"/>
-          </a>
-          <div className="nav-itens">
-            <div className="about-container">
-              <a href="/about">About</a>
-            </div>
-            <div>
-              <a href="https://app-remind.herokuapp.com/users/sign_in">Login</a>
-              <a href="https://app-remind.herokuapp.com/users/sign_up">Sign up</a>
-            </div>
-          </div>
-          <div className="menu">
-            <GiHamburgerMenu size={25} style={{ color: "#303030", cursor: 'pointer' }} onClick={displayMenu}/>
-          </div>
-        </nav>
-      </header>
-      <div id="menu-hidden">
-        <MdClose size={35} onClick={hideMenu} />
-        <div>
-          <ul>
-            <li>
-              <a href="/about">About</a>
-            </li>
-            <li>
-              <a href="https://app-remind.herokuapp.com/users/sign_in">Login</a>
-            </li>
-            <li>
-              <a href="https://app-remind.herokuapp.com/users/sign_up">Sign up</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <Header />
       <main>
         <section className="main-section">
           <div className="main-section-content">
