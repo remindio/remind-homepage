@@ -38,7 +38,7 @@ export default function Header() {
         <div>
           <ul>
             <li>
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <a href="https://app-remind.herokuapp.com/users/sign_in">Login</a>
