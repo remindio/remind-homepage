@@ -125,7 +125,7 @@ export default function App() {
             <div className="content">
               <div className="content-text">
                 <h2>And much more in the future</h2>
-                <p>Remind is being developed and great ideas are yet to come. <a href="/about">Read more</a></p>
+                <p>Remind is being developed and great ideas are yet to come.</p>
               </div>
               <div>
                 <img src={inProgress} alt="In progress"/>

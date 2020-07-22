@@ -25,6 +25,7 @@
 
   .home-page main .main-section .main-section-content .main-subdescription {
     align-items: center;
+    margin: 0;
   }
 
   .home-page main .first-section .first-section-content .content {
@@ -77,6 +78,30 @@
     align-items: center;
   }
 
+  .home-page main .second-section .second-section-content .content .notes-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-page main .second-section .second-section-content .content .notes-menu img {
+    width: 50%;
+  }
+
+  .home-page main .second-section .second-section-content .content .notes-menu .list {
+    align-self: flex-start;
+  }
+
+  .home-page main .second-section .second-section-content .content .notes-menu .menu {
+    width: 50%;
+    padding: 50px 0;
+  }
+
+  .home-page main .second-section .second-section-content .content .notes-menu .note {
+    align-self: flex-end;
+    padding: 0;
+  }
+
   .home-page main .second-section .second-section-content .content.move-notes {
     flex-direction: column-reverse;
     justify-content: center;
@@ -84,7 +109,7 @@
   }
 
   .home-page main .second-section .second-section-content .content .content-text {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .home-page main .second-section .second-section-content .content .content-text h2 {
@@ -107,16 +132,27 @@
 
   .home-page main .second-section .second-section-content .content .content-text.right p {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     padding-left: 0;
   }
 
-  .home-page main .third-section .third-section-content .content h2 {
-    text-align: center;
+
+  .home-page main .third-section .third-section-content .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30% 0;
   }
 
   .home-page main .third-section .third-section-content .content .content-text p {
-    width: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 50px auto;
+   
+  }
+  
+
+  .home-page main .third-section .third-section-content .content h2 {
     text-align: center;
   }
 
@@ -153,7 +189,9 @@
   }
 
   .home-page main .important-section .important-section-content .content .content-text p {
+    width: 80%;
     text-align: center;
+    padding: 0;
   }
 
   .home-page main .last-section .last-section-content .content {
@@ -181,7 +219,9 @@
   }
 
   .home-page main .last-section .last-section-content .content .content-text p {
+    width: 80%;
     text-align: center;
+    padding: 0;
   }
 }
 
@@ -376,6 +416,10 @@
   .home-page main .last-section .last-section-content .content .content-text h2 {
     font-size: 26px;  
   }
+
+  .home-page main .last-section .remind-description h3 {
+    font-size: 26px;
+  }
 }
 
 @media screen and (max-width: 424px) { 
@@ -410,6 +454,10 @@
 
   .home-page main .last-section .last-section-content .content .content-text h2 {
     font-size: 24px;  
+  }
+
+  .home-page main .last-section .remind-description h3 {
+    font-size: 24px;
   }
 
   .home-page main .main-section .main-section-content .main-subdescription p {
