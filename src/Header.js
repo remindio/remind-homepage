@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdClose } from 'react-icons/md'
 import logo from './assets/Remind.svg'
@@ -15,12 +16,12 @@ export default function Header() {
     <>
       <header>
         <nav>
-          <a href="/">
+          <Link to="/">
             <img src={logo} style={{ width: 100, height: 64 }} alt="Remind"/>
-          </a>
+          </Link>
           <div className="nav-itens">
             <div className="about-container">
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </div>
             <div>
               <a href="https://app-remind.herokuapp.com/users/sign_in">Login</a>
